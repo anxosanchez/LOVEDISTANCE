@@ -25,6 +25,11 @@ The project promotes inclusive education in Israel and Georgia by widening acces
 * Raise the public awareness of access to, equity, and democratization of HE, to promote social inclusion. 
 * Facilitate the transfer of best practices to expand access to, participation in, and successful completion of distance learning programs.
 
+## Participants
+
+[!Escola Superior de Saúde. Instituto Politécnico de Porto]
+
+
 ## Coordination
 
 [ESCOLA SUPERIOR DE SAÚDE DO POLITÉCNICO DO PORTO](https://www.ess.ipp.pt/)
