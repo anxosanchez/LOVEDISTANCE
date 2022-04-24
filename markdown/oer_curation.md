@@ -4,10 +4,11 @@ marp: true
 theme: gaia
 pagination: true
 class: invert
+size: 4:3
 
 ---
 
-# challenges in identifying and utilizing the Open Education Resources (OER).
+# <!-- fit --> Challenges in identifying and utilizing the OERs.
 
 *There is inadequate perception among teacher educators on availability and usability of relevant OER for teaching the contents.
 * Teacher Educators are varied on their perception regarding OER as relevant and active support to teach content.
@@ -63,5 +64,16 @@ Journal of Educational Technology, v15 n2 p55-61 Jul-Sep 2018
 
 ---
 
+![bg](https://fakeimg.pl/800x600/0288d1/fff/?text=A)
+![bg](https://fakeimg.pl/800x600/02669d/fff/?text=B)
+![bg](https://fakeimg.pl/800x600/67b8e3/fff/?text=C)
 
+# asdasd ad
 
+---
+
+# Thank you!
+
+![bg contain](https://i.pinimg.com/originals/a9/4c/08/a94c08d8fb96427b7e7250cb7ff2b4b9.jpg)
+
+---
