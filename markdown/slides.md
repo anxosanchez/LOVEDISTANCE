@@ -3,13 +3,30 @@
 marp: true
 theme: gaia
 paginate: true
-template: invert
 
 ---
 
 <!-- _class: lead -->
 
+<!-- fit -->
+
 # Markdown Markup Language Guide
+## Anxo Sánchez Bermúdez
+
+
+---
+
+<!-- class: invert -->
+
+# Frustrations with  word processors
+
+* Most teachers I know fall into one of two camps: **Microsoft Word** (old generation) **Google Docs** (new generation)
+* Both are terrible, especially in a world where there’s Markdown.
+* When we want share with students we use **PDF** formt (Adobe Corporation)
+* Make presentations with **Powerpoint**, **Impress** or **Google Slides** ...
+* and share them in **PDF** ...
+
+Try too convert MS Word doc into a Powerpoint Presentation and then share it in **PDF**!
 
 ---
 
@@ -28,8 +45,24 @@ Markdown is a markup language. The Markdown language lets you write plain text d
 # Math fórmulas
 
 $$
-\relax{x} = \int_{-\infty}^\infty \hat\xi\,e^{2 \pi i \xi x} \, d\xi
+\frac{\partial (\rho u_{i})}{\partial t} + \frac{\partial[\rho u_{i}u_{j}]}{\partial x_{j}} = -\frac{\partial p}{\partial x_{i}} + \frac{\partial \tau_{ij}}{\partial x_{j}} + \rho f_{i}
 $$
+$$
+\frac{\partial \rho}{\partial t} + \overrightarrow{\nabla}\cdot(\rho\overrightarrow{u})=0 
+$$
+$$
+\frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
+$$
+
+---
+
+# Mermaid Diagrams
+
+<center>
+
+[![](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
+
+</center>
 
 ---
 
@@ -61,7 +94,7 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 * If you need your document in different formats, for example, pdf, slides, etc. 
 
 ---
-<!-- fit -->
+
 # Semantics vs Format
 
 * Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
@@ -76,6 +109,11 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 - There are a lot of options in order to process documents before convert them into a final output.
 - There are a lot of tools that will work well with plain text and markdown as preprocessors.
 - Preprocessing documents often require a few programming skills, so it might not be the first thing to learn about markdown
+
+---
+
+# Concepts 
+
 - First, we can learn about:
   - Files
   - Templates
@@ -87,12 +125,16 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 # Markdown Process
 
+<!-- backgroundColor: gray -->
+
 ![](./flowchart1.png)
 
 * You can translate the text in multiple documents, or merge multiple chapters into a single one.
 * You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
 
 ---
+
+<!-- backgroundColor: default -->
 
  Why Use MarkdoWn and pandoc?
 
