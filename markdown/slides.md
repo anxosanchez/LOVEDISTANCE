@@ -3,31 +3,33 @@
 marp: true
 theme: gaia
 paginate: true
-
+header: "Universidade de Vigo"
+footer: "![w:240 h:48](erasmus-cofunded-logo.png) LOVEDISTANCE"
+size: 16:9
+Divider:
 ---
 
+<!-- _paginate: false -->
 <!-- _class: lead -->
 
-# Markdown Authoring
+#  <!-- fit -->  Markdown Authoring
 ## Anxo Sánchez Bermúdez
+## University of de Vigo
 
 ---
-
+<!-- header: "" -->
+<!-- footer: "" -->
 <!-- class: invert -->
 
 # Frustrations with  word processors
 
-- Most teachers I know fall into one of two camps: **Microsoft Word** (old generation) **Google Docs** (new generation)
+- Most teachers I know fall into one of two groups: **Microsoft Word'ers** or **Google Docs'ers**
 - Both are terrible, especially in a world where there’s Markdown.
-- When we want share with students we use **PDF** formt (Adobe Corporation)
+- When we want share with students we use **PDF** format.
 - Make presentations with **Powerpoint**, **Impress** or **Google Slides** ...
-- and share them in **PDF** ...
-
-Try too convert MS Word doc into a Powerpoint Presentation and then share it in **PDF**!
+- Try to convert a **MS word ```docx```** file to **MS PowerPoint ```pptx```** and then share it in **Adobe ```pdf```**!
 
 ---
-
-<!-- template: invert -->
 
 # What is markdown?
 
@@ -55,11 +57,8 @@ $$
 
 # Mermaid Diagrams
 
-<center>
+[![w:600 h:400](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
 
-[![](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
-
-</center>
 
 ---
 
@@ -72,7 +71,7 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 ---
 
-# Markdown Principal Characteristics
+# <!-- fit --> Markdown Principal Characteristics
 
 - Markdown is simple. Annotations are minimal, and in made in plain text.
 - Markdown is generates easyly documents in other markup languages or formats.
@@ -124,7 +123,7 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 
 <!-- backgroundColor: gray -->
 
-![](./flowchart1.png)
+![](flowchart1.png)
 
 * You can translate the text in multiple documents, or merge multiple chapters into a single one.
 * You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
@@ -386,7 +385,19 @@ $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
 
 # Presenter notes
 
+```
 <!-- This is a presenter note for this page. -->
 <!-- EXAMPLE: An EXAMPLE directive is not defined in Marp/Marpit, so this works as presenter notes. -->
+```
 ```<!-- fit -->``` This is not a presenter note.
 
+---
+
+<!-- class: lead -->
+
+# <!-- fit --> Thank you!
+## Creative Commos License
+![w:300 h:100](by-nc-nd.eu.png) 
+
+
+---

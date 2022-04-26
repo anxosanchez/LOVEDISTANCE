@@ -64,16 +64,25 @@ Journal of Educational Technology, v15 n2 p55-61 Jul-Sep 2018
 
 ---
 
-![bg](https://fakeimg.pl/800x600/0288d1/fff/?text=A)
-![bg](https://fakeimg.pl/800x600/02669d/fff/?text=B)
-![bg](https://fakeimg.pl/800x600/67b8e3/fff/?text=C)
+# Recommendations
 
-# asdasd ad
+- Limit the amount of copyrighted materials posted to Moodle
+
+- Use links to legal copies of materials, rather than creating and uploading copies to Moodle. Reasons linking is preferable include:
+
+- Consider this a teachable moment: teach to find
+
+- Using films and music within Moodle carefully
+
+- Delete copyrighted content after the class ends
 
 ---
 
-# Thank you!
+<!-- class: lead -->
 
-![bg contain](https://i.pinimg.com/originals/a9/4c/08/a94c08d8fb96427b7e7250cb7ff2b4b9.jpg)
+# <!-- fit --> Thank you!
+## Creative Commos License
+![w:300 h:100](by-nc-nd.eu.png) 
+
 
 ---
