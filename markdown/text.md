@@ -1,25 +1,7 @@
----
-
-marp: true
-theme: gaia
-paginate: true
-header: "![w:240 h:48](logo.svg)"
-footer: "![w:240 h:48](erasmus-cofunded-logo.png) LOVEDISTANCE"
-size: 16:9
-Divider:
----
-
-<!-- _paginate: false -->
-<!-- _class: lead -->
-
-##  <!-- fit -->  Markdown Authoring
+#  Markdown Authoring
 ## Anxo Sánchez Bermúdez
 ## University of de Vigo
 
----
-<!-- header: "" -->
-<!-- footer: "" -->
-<!-- class: invert -->
 
 ## Frustrations with  word processors
 
@@ -29,7 +11,6 @@ Divider:
 - Make presentations with **Powerpoint**, **Impress** or **Google Slides** ...
 - Try to convert a **MS word ```docx```** file to **MS PowerPoint ```pptx```** and then share it in **Adobe ```pdf```**!
 
----
 
 ## What is markdown?
 
@@ -39,7 +20,6 @@ Markdown is a markup language. The Markdown language lets you write plain text d
 - Fonts and font sizes.
 - Line, page numbes, etc.
 
----
 
 ## Math fórmulas
 
@@ -53,14 +33,11 @@ $$
 \frac{\partial(\rho \overrightarrow{u})}{\partial t} + \overrightarrow{\nabla}\cdot[\rho\overline{\overline{u\otimes u}}] = -\overrightarrow{\nabla p} + \overrightarrow{\nabla}\cdot\overline{\overline{\tau}} + \rho\overrightarrow{f}
 $$
 
----
 
 ## Mermaid Diagrams
 
 [![w:600 h:400](https://mermaid.ink/img/pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)](https://mermaid.live/edit#pako:eNpt0M2qAjEMBeBXidk68wJdKILC1a3bbkJ7dMrtj9YWEfHd7YzjzqwC-U4gebJJFqz4hmtFNNg6OWcJOlKrjXcG_Wq1PKQhKvqD94nGvqMh3Uky6JHq-if-MCNxJDRAMgXMdJz1jfZTpi12n3RH-ykx6RZb_OZ7OgGezhlSZvIt7jggB3G23fQcZ5rLgADNqrVW8r9mHV_N1YuVgp11JWVWJ_E3dCy1pOMjGlYlV3zR_JRZvd5_C2Gl)
 
-
----
 
 ## What is not markdown?
 
@@ -69,9 +46,8 @@ $$
 
 This workflow paradigm makes it easier to produce different kinds of outputs. Working together with [pandoc](https://pandoc.org) your markdown source can easily be transformed into other formats like HTML, PDF, or DOCX
 
----
 
-# <!-- fit --> Markdown Principal Characteristics
+## Markdown Principal Characteristics
 
 - Markdown is simple. Annotations are minimal, and in made in plain text.
 - Markdown is generates easyly documents in other markup languages or formats.
@@ -79,9 +55,8 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 - Math expresions are writen in LaTeX.
 - It uses Pandoc as translation support (several extensions.)
 
---- 
 
-# Why Use Markdown
+## Why Use Markdown
 
 * If you are an content author which changes versions and outputs formats (like a learner)
 * If you thing WYSIWYG editors such as Microsoft Word can ba a nightmare.
@@ -89,26 +64,22 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 * Plain text editors are free, light and portable. If you are authoring in plain text file, you know exactly what you are editing.
 * If you need your document in different formats, for example, pdf, slides, etc. 
 
----
 
-# Semantics vs Format
+## Semantics vs Format
 
 * Texts consist of chapters and sections, plain text and emphasized text, figures and citations, quotes, and lists. 
 * Semantic elements are visualized by different fonts, bold and italic text, different font sizes, and we do not directly see the semantic structure.
 * Most word processors separate semantics from formatting. 
-* Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units—they.
+* Using WYSIWYG word processors doesn’t prevent you from structuring your documents as semantic units.
 
----
 
-# Preprocessing Documents
+## Preprocessing Documents
 
 - There are a lot of options in order to process documents before convert them into a final output.
 - There are a lot of tools that will work well with plain text and markdown as preprocessors.
 - Preprocessing documents often require a few programming skills, so it might not be the first thing to learn about markdown
 
----
-
-# Concepts 
+## Concepts 
 
 - First, we can learn about:
   - Files
@@ -117,32 +88,16 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
   - Outputs
   - Pandoc
 
----
 
-# Markdown Process
-
-<!-- backgroundColor: gray -->
+## Markdown Process
 
 ![](flowchart1.png)
 
 * You can translate the text in multiple documents, or merge multiple chapters into a single one.
 * You combine templates for formatting the documents, and using **Pandoc** to produce the documents you want.
 
----
 
-<!-- backgroundColor: white -->
-<!-- color: black -->
-
-## Markdown
-## Pandoc
-## Pathways
-
-![bg contain](pandoc.png)
-
----
-<!-- backgroundColor: default -->
-
- Why Use MarkdoWn and pandoc?
+## Why Use MarkdoWn and pandoc?
 
 * You can write without worrying about it initially, and format later.
 * You have a lot of code examples.
@@ -152,9 +107,7 @@ This workflow paradigm makes it easier to produce different kinds of outputs. Wo
 * You share documents with many people
 * You use online sites that can render markdown (Moodle, Jupyter, wordpress, Hugo, etc)
 
----
-
-Why Markdown?
+## Why Markdown?
 
 * It's a markup languege easier to leran than any other (HTML)
 * Is much easy but compayibler with TeX and LaTeX
@@ -167,9 +120,8 @@ Why Markdown?
 * Two
 ```
 
----
 
-# In LateX
+## In LateX
 
 ```latex
 \begin{itemize}
@@ -185,18 +137,16 @@ Why Markdown?
 <li>Two</li>
 </ul>
 ```
-----
 
-# Why Pandoc?
+## Why Pandoc?
 
 * Since Markdown is just a language for adding structure to a text, it is not tied to any particular tool.
 * Many blogging platforms accep Markdown and automatically format it for you to HTML (**Moodle**).
 * Now, many text editors also support Markdown but may be you need to export to different file formats and in different styles, then that is obviously the easiest way for you to export your Markdown text. 
 * Pandoc is vastly more versatile than any Markdown-aware text editor.
 
---- 
 
-# Writing Markdown
+## Writing Markdown
 
 ```markdown
 # Header level 1
@@ -222,9 +172,8 @@ _**Italic Bold**_
 _**Italic Bold**_
 **_Italic Bold_**
 
----
 
-# Lists
+## Lists
 
 ```markown
 1. This is a numbered list.
@@ -236,7 +185,7 @@ _**Italic Bold**_
 2. Where this is list item two.
 3. And this is list item three.
 
----
+## Numbered Lists
 
 ```markdown
 1. This is a multi-line list item.
@@ -250,10 +199,9 @@ _**Italic Bold**_
    list item. And so is this.
 2. Here is another one. Where this is also part of the list
    item.
-  
----
 
-# Sublists
+
+## Sublists
 
 ```markdown
 - This is a top-level list item
@@ -266,7 +214,7 @@ _**Italic Bold**_
 
 ---
 
-# Block Quotes
+## Block Quotes
 
 ```markdown
 > This is a blockquote. The blockquote
@@ -280,7 +228,7 @@ _**Italic Bold**_
 
 ---
 
-# Verbatim Text 
+## Verbatim Text 
 
 \`\`\`
 This will be shown absolutely verbatim
@@ -292,9 +240,8 @@ The result will then look like this:
 This will be shown absolutely verbatim
 ```
 
----
 
-# Links
+## Links
 
 This is a link to [my blog](https://github.io/anxosanchez/).
 
@@ -304,7 +251,23 @@ This is a link to [my blog](https://pdf2md.morethan.io/[http://www.mailund.dk](h
 
 This is a link to [the section](https://pdf2md.morethan.io/#verbatim).
 
----
+
+## Images
+
+![Title of the figure](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
+
+
+## combined with HTML
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![w:649 center](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
+
 
 ```markdown
 a. This list uses letters instead of numbers.
@@ -320,33 +283,8 @@ b. We can make a sublist with a roman numerals:
 i. This sublist also uses parenthesis
 ii. Cool, isn’t it?
 
----
-# Images
 
-![Title of the figure](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
-
----
-
-# combined with HTML
-
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
-
-![w:649 center](https://eei.uvigo.es/wp-content/uploads/2022/04/Tecnologias_XR.jpeg)
-
----
-
-![Watch the video](https://youtu.be/AOaxhU1yxOM)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AOaxhU1yxOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-# Tables
+## Tables
 
 ```markdown
 | Right | Left | Default | Center |
@@ -360,9 +298,8 @@ Result:
 |    12 | 12   | 12      |   12   |
 |   123 | 123  | 123     |  123   |
 
----
 
-# Footnotes
+## Footnotes
 
 Footnote inside a paragraph.[^1]
 
@@ -370,9 +307,8 @@ Reference to a footnote.[[1\]](https://pdf2md.morethan.io/#fn1)
 
 [^1]: This is footnote one.
 
----
 
-# Syntax Highligthing
+## Syntax Highligthing
 
 ```python
 for (int i = 0; i < n; i++) 
@@ -383,9 +319,9 @@ printf("%d\n", i);
 function v = f(x);
     v = exp(a^3)  - x
 ```
----
 
-# Maths
+
+## Maths
 
 ```latex
 $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
@@ -396,23 +332,22 @@ looks like
 $$p_k(x)=\prod_{\substack{i=1\\i\ne k}}^n
 \left(\frac{x-t_i}{t_k-t_i}\right)$$
 
----
 
-# Presenter notes
 
-```
-<!-- This is a presenter note for this page. -->
-<!-- EXAMPLE: An EXAMPLE directive is not defined in Marp/Marpit, so this works as presenter notes. -->
-```
-```<!-- fit -->``` This is not a presenter note.
+# Video
 
----
+https://youtu.be/AOaxhU1yxOM
 
-<!-- class: lead -->
 
-# <!-- fit --> Thank you!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AOaxhU1yxOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+# Thank you!
 ## Creative Commos License
 ![w:300 h:100](by-nc-nd.eu.png) 
 
 
----
+
+
+
