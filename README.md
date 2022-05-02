@@ -33,18 +33,8 @@ The project promotes inclusive education in Israel and Georgia by widening acces
 ## Coordination
 
 [ESCOLA SUPERIOR DE SAÚDE DO POLITÉCNICO DO PORTO](https://www.ess.ipp.pt/)
-
-TS
-CONTACTS
+  
+TS  
+CONTACTS  
 European Commission
-LOVEDIST@NCE is co-financed by the European Commission
-through the Erasmus+ Programme, under contract number
-609949-EPP-1-2019-1-PT-EPPKA2-CBHE-JP. The contents of this
-website reflect only the views of the authors and the European
-Commission cannot be held responsible for any use which may be made of the information contained therein.
-
-© Copyright Oficial 2022 - 2022 - Escola Superior de Saúde | Politécnico do Porto, todos os direitos reservadosMAPA DO SITE | ACESSIBILIDADE | TERMOS E CONDIÇÕES
-     
-
-
-Go to Top
+LOVEDIST@NCE is co-financed by the European Commission through the Erasmus+ Programme, under contract number 609949-EPP-1-2019-1-PT-EPPKA2-CBHE-JP. The contents of this website reflect only the views of the authors and the European Commission cannot be held responsible for any use which may be made of the information contained therein.
