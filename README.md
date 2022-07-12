@@ -2,6 +2,11 @@
 
 ## This repository contains all the materials related to the [University of Vigo](https://www.uvigo.gal) workpackage of the [LOVE.DIST@NCE](https://lovedistance.eu/) project 
 
+<img src="./images/Erasmus+.png" width="200"/>   
+<img src="./images/a6cc6845-e77c-4126-b4d5-2b545bdb1979.png" width="200"/>
+
+
+
 ## About the Project
 
 The actions targeted in the [LOVE.DIST@NCE](https://lovedistance.eu/) project are:
